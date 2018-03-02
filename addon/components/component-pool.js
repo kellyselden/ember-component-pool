@@ -4,6 +4,7 @@ import layout from '../templates/components/component-pool';
 
 export default Component.extend({
   layout,
+  tagName: '',
 
   componentPool: inject(),
 
